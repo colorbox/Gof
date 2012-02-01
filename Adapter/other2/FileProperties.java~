@@ -1,0 +1,32 @@
+import java.io.*;
+import java.util.Propertis;
+/*
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Properties;
+*/
+
+
+
+public class FileProperties implements FileIO{
+    private FileInputStream in;
+    FileOutputStream out;
+    public void readFromFile(String filename)throws IOException{
+	in = new FileInputStream("file.txt");
+    }
+
+    public void writeToFile(String filename)throws IOException{
+	out = new FileOutputStream("newfile.txt");
+    }
+
+    public void setValue(String key,String value){
+	Properties.
+    }
+
+    public String getValue(String key){
+    }
+
+    
+}

@@ -1,0 +1,5 @@
+#test
+#Wed Feb 01 01:18:31 JST 2012
+day=21
+year=2004
+month=4
