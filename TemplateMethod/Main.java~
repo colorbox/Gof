@@ -1,0 +1,7 @@
+public class Main{
+    public static void main(String[] args){
+	AbstractDisplay d1 = new CharDislay('H');
+	AbstractDisplay d1 = new StringDislay("Hello,World.");
+	AbstractDisplay d3= new StringDisplay("こんにちは！")
+    }
+}
