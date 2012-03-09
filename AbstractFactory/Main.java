@@ -9,6 +9,13 @@ public class Main{
 	    System.exit(0);
 	}
 	Factory factory = Factory.getFactory(args[0]);
+
+	/*
+	Page page = factory.createYahooPage();
+	page.output();
+	*/
+
+	
 	Link asahi =factory.createLink("asahi","asahi link");
 	Link yomiuri = factory.createLink("yomiuri","yomiuri link");
 
@@ -32,10 +39,11 @@ public class Main{
 	trayunko.add(unko2);
 	trayunko.add(unko3);
 
-	Page page = factory.createPage("LinkPage","Kentaro Majima");
+	Page page = factory.createPage("LinkPage","colorbox222@gmail.com");
 	page.add(traynews);
 	page.add(trayweb);
 	page.add(trayunko);
 	page.output();
+	
     }
 }
