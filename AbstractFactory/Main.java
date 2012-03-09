@@ -10,6 +10,8 @@ public class Main{
 	}
 	Factory factory = Factory.getFactory(args[0]);
 
+
+
 	/*
 	Page page = factory.createYahooPage();
 	page.output();
