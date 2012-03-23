@@ -3,7 +3,7 @@ public class Main{
 	String[] data={
 	    "eagle","birdy","par","boogy","phantom"
 	};
-	SortAndPrint sap = new SortAndPrint(data,new SelectionSorter());
+	SortAndPrint sap = new SortAndPrint(data,new InsertSorter());
 	sap.execute();
     }
 }
