@@ -11,13 +11,19 @@ public class Directory extends Entry{
 	return name;
     }
     public int getSize(){
-	int size=0;
-	Iterator it = dir.iterator();
-	while(it.hasNext()){
-	    Entry entry =(Entry)it.next();
-	    size+=entry.getSize();
-	}
-	return size;
+	SizeVisitor SV = new SizeVisitor();
+	SV.visit(this);
+	return SV.getSize();
+
+	/*
+	  int size=0;
+	  Iterator it = dir.iterator();
+	  while(it.hasNext()){
+	  Entry entry =(Entry)it.next();
+	  size+=entry.getSize();
+	  }
+	  return size;
+	*/
     }
     public Entry add(Entry entry){
 	dir.add(entry);

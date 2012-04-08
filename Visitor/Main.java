@@ -7,12 +7,25 @@ public class Main{
 	    Directory tmpdir = new Directory("tmp");
 	    rootdir.add(bindir);
 	    rootdir.add(tmpdir);
-	    bindir.add(new File("unko",1000));
-	    rootdir.add(new File("unko12",1200));
-	    tmpdir.add(new File("unko23",2300));
+
+
+	    bindir.add(new File("unko.java",1000));
+	    rootdir.add(new File("unko12.txt",1000));
+	    rootdir.add(new File("unko34.txt",1000));
+	    rootdir.add(new File("unko56.txt",1000));
+	    tmpdir.add(new File("unko23.html",1000));
+	    tmpdir.add(new File("unko45.html",1000));
+	    tmpdir.add(new File("unko67.html",1000));
 
 	    System.out.println("");
 	    rootdir.accept(new ListVisitor());
+	    rootdir.accept(new FindFileVisitor(".java"));
+	    rootdir.accept(new FindFileVisitor(".txt"));
+	    rootdir.accept(new FindFileVisitor(".html"));
+
+	    System.out.println("");
+	    System.out.println(rootdir.getSize());
+
 	}catch(FileTreatmentException e){
 	    e.printStackTrace();
 	}

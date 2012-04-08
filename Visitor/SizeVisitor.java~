@@ -1,0 +1,13 @@
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;
+import java.util.Iterator;
+
+public class SizeVisitor extends Visitor{
+    public SizeVisitor(){
+    }
+    public void visit(File file){
+    }
+    public void visit(Directory directory){
+    }
+}
+

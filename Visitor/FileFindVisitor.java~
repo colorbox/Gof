@@ -1,0 +1,22 @@
+import java.util.Iterator;
+
+public class FindFileVisitor extends Visitor{
+    String extension;
+    Pattern p ;
+    Matcher m ;
+
+    public FindFileVisitor(String extension){
+	this.extension=extension;
+	p=Pattern.compile("."+extension);
+    }
+    public void visit(File file){
+	m=p.matcher(""+file);
+	if(m.find()){
+	    System.out.println(file);
+	}
+    }
+    public void visit(Directory directory){
+    }
+
+}
+
