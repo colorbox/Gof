@@ -8,7 +8,7 @@ public class Main{
 	    rootdir.add(bindir);
 	    rootdir.add(tmpdir);
 
-
+	    
 	    bindir.add(new File("unko.java",1000));
 	    rootdir.add(new File("unko12.txt",1000));
 	    rootdir.add(new File("unko34.txt",1000));
@@ -16,6 +16,7 @@ public class Main{
 	    tmpdir.add(new File("unko23.html",1000));
 	    tmpdir.add(new File("unko45.html",1000));
 	    tmpdir.add(new File("unko67.html",1000));
+	    
 
 	    System.out.println("");
 	    rootdir.accept(new ListVisitor());
@@ -26,7 +27,12 @@ public class Main{
 	    System.out.println("");
 	    System.out.println(rootdir.getSize());
 
-	}catch(FileTreatmentException e){
+	    ElementArrayList list = new ElementArrayList();
+	    list.add(rootdir);
+
+	    list.accept(new ListVisitor());
+
+		}catch(FileTreatmentException e){
 	    e.printStackTrace();
 	}
     }
