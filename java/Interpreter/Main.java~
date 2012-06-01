@@ -1,0 +1,14 @@
+import java.util.*;
+import java.io.*;
+
+public class Main{
+    public static void main(String[] args){
+	try{
+	    BufferReader reader = new BufferReader(new FileReader("program.txt"));
+	    String text;
+	    while( (text == reader.readLine()) != null ){
+		System.out.println("test = \""+ text + "\"");;
+	    }
+	}
+    }
+}

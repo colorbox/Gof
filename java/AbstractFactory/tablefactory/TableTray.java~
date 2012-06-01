@@ -1,0 +1,9 @@
+package tablefactory;
+import factory.*;
+import java.util.Iterator;
+
+public class TableTray extends Tray{
+    public TableTray(String caption){
+	super(caption);
+    }
+}

@@ -1,0 +1,6 @@
+public class PrimitiveCommandNode extends Node{
+    private String name;
+    public void parse(Context context)throws ParseException{
+	
+    }
+}

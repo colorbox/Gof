@@ -1,0 +1,11 @@
+import java.util.Iterator;
+import java.util.ArrayList;
+
+public class Directory extends Entry{
+    private String name;
+    private ArrayList directory = new ArrayList();
+    public Directory(String name){
+	this.name=name;
+    }
+    
+}

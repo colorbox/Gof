@@ -1,0 +1,8 @@
+public class UpDownBorder extends Border{
+    private char BorderChar;
+    public UpDownBorder(Display display,char ch){
+	super(display);
+	this.BorderChar=ch;
+    }
+}
+

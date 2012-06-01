@@ -1,0 +1,6 @@
+public class Printer implements Printable{
+    private String name;
+    public Printer(){
+	heavyJob("Printerのインスタンスを生成中");
+    }
+}

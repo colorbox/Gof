@@ -1,0 +1,15 @@
+import java.io.*;
+
+public class HTMLBuilder extends Builder{
+    private String filename;
+    private PrintWriter writer;
+    public void makeTitle(String title){
+	filename = title+".html";
+	try{
+	    writer = new PrintWriter(new FileWriter(filename));
+	}catch(IOException e){
+	    e.printStackTrace();
+	}
+	writer.println("<html><head><title>"+titke+"</html></head></title>")
+    }
+}

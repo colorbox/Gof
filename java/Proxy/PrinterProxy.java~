@@ -1,0 +1,17 @@
+public class PinterProxy implements Printable{
+    private String name;
+    public Prnter real;
+    public PrinterProxy(){}
+    public PrinterProxy(String name){
+	this.name=name;
+    }
+    public syncronized void setPrinterName(String name){
+	if(real != null){
+	    real.setPrinterName(name);
+	}
+	this.name=name;
+    }
+    public String getPrinterName(){
+	rturn name;
+    }
+}
