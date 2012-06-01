@@ -21,6 +21,7 @@
 		2F50C19E157909D2003A4904 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F50C17C157909D2003A4904 /* Foundation.framework */; };
 		2F50C1A6157909D2003A4904 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F50C1A4157909D2003A4904 /* InfoPlist.strings */; };
 		2F50C1A9157909D2003A4904 /* IteratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F50C1A8157909D2003A4904 /* IteratorTests.m */; };
+		2F50C1B615790E0A003A4904 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F50C1B515790E0A003A4904 /* Book.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,10 @@
 		2F50C1A5157909D2003A4904 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2F50C1A7157909D2003A4904 /* IteratorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IteratorTests.h; sourceTree = "<group>"; };
 		2F50C1A8157909D2003A4904 /* IteratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IteratorTests.m; sourceTree = "<group>"; };
+		2F50C1B215790CA8003A4904 /* Aggregate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Aggregate.h; sourceTree = "<group>"; };
+		2F50C1B315790D87003A4904 /* Iterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Iterator.h; sourceTree = "<group>"; };
+		2F50C1B415790E0A003A4904 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		2F50C1B515790E0A003A4904 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +123,12 @@
 				2F50C18C157909D2003A4904 /* MainStoryboard_iPhone.storyboard */,
 				2F50C18F157909D2003A4904 /* MainStoryboard_iPad.storyboard */,
 				2F50C192157909D2003A4904 /* IteratorViewController.h */,
+				2F50C1B415790E0A003A4904 /* Book.h */,
+				2F50C1B515790E0A003A4904 /* Book.m */,
 				2F50C193157909D2003A4904 /* IteratorViewController.m */,
 				2F50C181157909D2003A4904 /* Supporting Files */,
+				2F50C1B215790CA8003A4904 /* Aggregate.h */,
+				2F50C1B315790D87003A4904 /* Iterator.h */,
 			);
 			path = Iterator;
 			sourceTree = "<group>";
@@ -265,6 +274,7 @@
 				2F50C187157909D2003A4904 /* main.m in Sources */,
 				2F50C18B157909D2003A4904 /* IteratorAppDelegate.m in Sources */,
 				2F50C194157909D2003A4904 /* IteratorViewController.m in Sources */,
+				2F50C1B615790E0A003A4904 /* Book.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
