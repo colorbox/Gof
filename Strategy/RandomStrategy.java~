@@ -1,5 +1,0 @@
-import java.ui.Random;
-
-public class RandomStrategy implements Strategy{
-    
-}

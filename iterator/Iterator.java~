@@ -1,4 +1,0 @@
-public interface Iterator{
-    public abstract booleanhasNext();
-    public abstract Object next();
-}
