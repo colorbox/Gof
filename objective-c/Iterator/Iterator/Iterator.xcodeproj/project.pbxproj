@@ -22,6 +22,7 @@
 		2F50C1A6157909D2003A4904 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F50C1A4157909D2003A4904 /* InfoPlist.strings */; };
 		2F50C1A9157909D2003A4904 /* IteratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F50C1A8157909D2003A4904 /* IteratorTests.m */; };
 		2F50C1B615790E0A003A4904 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F50C1B515790E0A003A4904 /* Book.m */; };
+		2FE724BF1579D79900BB47E7 /* BookShelf.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE724BE1579D79900BB47E7 /* BookShelf.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		2F50C1B315790D87003A4904 /* Iterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Iterator.h; sourceTree = "<group>"; };
 		2F50C1B415790E0A003A4904 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
 		2F50C1B515790E0A003A4904 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		2FE724BD1579D79900BB47E7 /* BookShelf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookShelf.h; sourceTree = "<group>"; };
+		2FE724BE1579D79900BB47E7 /* BookShelf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookShelf.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,17 +121,14 @@
 		2F50C180157909D2003A4904 /* Iterator */ = {
 			isa = PBXGroup;
 			children = (
+				2FE724BB1579C52300BB47E7 /* Iterator */,
 				2F50C189157909D2003A4904 /* IteratorAppDelegate.h */,
 				2F50C18A157909D2003A4904 /* IteratorAppDelegate.m */,
 				2F50C18C157909D2003A4904 /* MainStoryboard_iPhone.storyboard */,
 				2F50C18F157909D2003A4904 /* MainStoryboard_iPad.storyboard */,
 				2F50C192157909D2003A4904 /* IteratorViewController.h */,
-				2F50C1B415790E0A003A4904 /* Book.h */,
-				2F50C1B515790E0A003A4904 /* Book.m */,
 				2F50C193157909D2003A4904 /* IteratorViewController.m */,
 				2F50C181157909D2003A4904 /* Supporting Files */,
-				2F50C1B215790CA8003A4904 /* Aggregate.h */,
-				2F50C1B315790D87003A4904 /* Iterator.h */,
 			);
 			path = Iterator;
 			sourceTree = "<group>";
@@ -161,6 +161,19 @@
 				2F50C1A4157909D2003A4904 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FE724BB1579C52300BB47E7 /* Iterator */ = {
+			isa = PBXGroup;
+			children = (
+				2F50C1B215790CA8003A4904 /* Aggregate.h */,
+				2F50C1B315790D87003A4904 /* Iterator.h */,
+				2F50C1B415790E0A003A4904 /* Book.h */,
+				2F50C1B515790E0A003A4904 /* Book.m */,
+				2FE724BD1579D79900BB47E7 /* BookShelf.h */,
+				2FE724BE1579D79900BB47E7 /* BookShelf.m */,
+			);
+			name = Iterator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +288,7 @@
 				2F50C18B157909D2003A4904 /* IteratorAppDelegate.m in Sources */,
 				2F50C194157909D2003A4904 /* IteratorViewController.m in Sources */,
 				2F50C1B615790E0A003A4904 /* Book.m in Sources */,
+				2FE724BF1579D79900BB47E7 /* BookShelf.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +468,7 @@
 				2F50C1AE157909D2003A4904 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F50C1AF157909D2003A4904 /* Build configuration list for PBXNativeTarget "IteratorTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +477,7 @@
 				2F50C1B1157909D2003A4904 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
