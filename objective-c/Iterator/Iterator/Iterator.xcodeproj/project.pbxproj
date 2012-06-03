@@ -22,6 +22,7 @@
 		2F50C1A6157909D2003A4904 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F50C1A4157909D2003A4904 /* InfoPlist.strings */; };
 		2F50C1A9157909D2003A4904 /* IteratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F50C1A8157909D2003A4904 /* IteratorTests.m */; };
 		2F50C1B615790E0A003A4904 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F50C1B515790E0A003A4904 /* Book.m */; };
+		2FB853B3157BA05B00A45C56 /* BookShelfIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB853B2157BA05B00A45C56 /* BookShelfIterator.m */; };
 		2FE724BF1579D79900BB47E7 /* BookShelf.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE724BE1579D79900BB47E7 /* BookShelf.m */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,8 @@
 		2F50C1B315790D87003A4904 /* Iterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Iterator.h; sourceTree = "<group>"; };
 		2F50C1B415790E0A003A4904 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
 		2F50C1B515790E0A003A4904 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		2FB853B1157BA05B00A45C56 /* BookShelfIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookShelfIterator.h; sourceTree = "<group>"; };
+		2FB853B2157BA05B00A45C56 /* BookShelfIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookShelfIterator.m; sourceTree = "<group>"; };
 		2FE724BD1579D79900BB47E7 /* BookShelf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookShelf.h; sourceTree = "<group>"; };
 		2FE724BE1579D79900BB47E7 /* BookShelf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookShelf.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -172,6 +175,8 @@
 				2F50C1B515790E0A003A4904 /* Book.m */,
 				2FE724BD1579D79900BB47E7 /* BookShelf.h */,
 				2FE724BE1579D79900BB47E7 /* BookShelf.m */,
+				2FB853B1157BA05B00A45C56 /* BookShelfIterator.h */,
+				2FB853B2157BA05B00A45C56 /* BookShelfIterator.m */,
 			);
 			name = Iterator;
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 				2F50C194157909D2003A4904 /* IteratorViewController.m in Sources */,
 				2F50C1B615790E0A003A4904 /* Book.m in Sources */,
 				2FE724BF1579D79900BB47E7 /* BookShelf.m in Sources */,
+				2FB853B3157BA05B00A45C56 /* BookShelfIterator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

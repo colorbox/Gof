@@ -10,12 +10,15 @@
 #import "Aggregate.h"
 #import "Book.h"
 
+@class Iterator;
+
 @interface BookShelf : NSObject <Aggregate>{
     int last;
-    NSArray *books;
+    NSMutableArray *books;
+    Iterator *iterate;
 }
 
-@property(nonatomic)int last;
+@property int last;
 
 -(Book *)getBookAt:(int)index;
 -(void)appendBook:(Book *)book;

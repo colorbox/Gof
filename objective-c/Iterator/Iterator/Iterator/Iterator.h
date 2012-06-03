@@ -10,5 +10,5 @@
 
 @protocol Iterator <NSObject>
 -(bool)hasNext;
--(NSObject)next;
+-(NSObject *)next;
 @end

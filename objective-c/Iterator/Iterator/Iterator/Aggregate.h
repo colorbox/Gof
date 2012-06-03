@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Iterator.h"
 
 @protocol Aggregate <NSObject>
--(Iterator)iterator;
+-(Iterator *)iterator;
 @end
