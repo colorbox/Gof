@@ -15,6 +15,18 @@
     index=0;
 }
 
+-(BOOL)hasNext{
+    if(index < [bookshelf getLength]){
+        return YES;
+    }else{
+        return NO;
+    }
+}
 
+-(id)next{
+    Book *book = [bookshelf getBookAt:index];
+    index++;
+    return book;
+}
 
 @end

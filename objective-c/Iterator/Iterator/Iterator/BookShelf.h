@@ -12,7 +12,7 @@
 
 @class Iterator;
 
-@interface BookShelf : NSObject <Aggregate>{
+@interface BookShelf : NSObject {
     int last;
     NSMutableArray *books;
     Iterator *iterate;

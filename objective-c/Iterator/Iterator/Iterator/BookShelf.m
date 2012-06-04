@@ -7,7 +7,6 @@
 //
 
 #import "BookShelf.h"
-#import "BookShelfIterator.h"
 
 //check NSArray to implement appendBook!!
 @implementation BookShelf
@@ -24,13 +23,18 @@
     [books addObject:book];
 }
 
+
 -(int)getLength{
     return [books count];
 }
 
+
+
+
+/*
 -(Iterator *)iterator(){
     iterate = [[Iterator alloc ]init];
     return iterate;
 }
-
+*/
 @end
