@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface IteratorAppDelegate : UIResponder <UIApplicationDelegate>
+
+@interface IteratorAppDelegate : UIResponder <UIApplicationDelegate>{
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
