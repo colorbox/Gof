@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Iterator.h"
 
 
 @interface IteratorAppDelegate : UIResponder <UIApplicationDelegate>{

@@ -10,4 +10,36 @@
 
 @implementation Iterator
 
+
+-(id)initWithArray:(NSArray *)array{
+    self=[super init];
+    if(!self){
+        return nil;
+    }
+    _array=array;
+    _index=0;
+    
+    return self;
+}
+
+-(void)first{
+    _index=0;
+}
+
+-(void)next{
+    _index++;
+}
+
+-(BOOL)isDone{
+    return _index >= [_array count];
+}
+
+-(id)currentItem{
+    if([self isDone]){
+        return nil;
+    }
+    
+    return [_array objectAtIndex:_index];
+}
+
 @end

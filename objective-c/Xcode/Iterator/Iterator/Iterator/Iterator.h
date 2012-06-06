@@ -8,6 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Iterator : NSObject
+@interface Iterator : NSObject{
+    NSArray *_array;
+    unsigned int _index;
+}
+
+-(id)initWithArray:(NSArray*)array;
+-(void)first;
+-(void)next;
+-(BOOL)isDone;
+-(id)currentItem;
 
 @end

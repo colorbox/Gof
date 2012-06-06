@@ -15,11 +15,28 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
+    NSArray *array = [NSArray arrayWithObjects:@"Happy",@"Sunny",@"Peace",@"March",@"Beauty", nil];
+
+    NSEnumerator *test=[array objectEnumerator];
+    id object;
     
-    
-    
+    while((object = [test nextObject])){
+        NSLog(@"%@",object);
     }
-     
+
+    NSLog(@"===============");
+    
+    
+    Iterator* iterator;
+    iterator = [[Iterator alloc]initWithArray:array];
+    
+    while(![iterator isDone]){
+        id item;
+        item = [iterator currentItem];
+        NSLog(@"%@",item);
+        
+        [iterator next];
+    }
     
     
     // Override point for customization after application launch.
