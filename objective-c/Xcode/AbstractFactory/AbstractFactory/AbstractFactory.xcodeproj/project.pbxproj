@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FD1611D15A2984C008C7610 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD1611C15A2984C008C7610 /* UIKit.framework */; };
+		2FD1611F15A2984C008C7610 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD1611E15A2984C008C7610 /* Foundation.framework */; };
+		2FD1612115A2984C008C7610 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD1612015A2984C008C7610 /* CoreGraphics.framework */; };
+		2FD1612715A2984C008C7610 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FD1612515A2984C008C7610 /* InfoPlist.strings */; };
+		2FD1612915A2984C008C7610 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD1612815A2984C008C7610 /* main.m */; };
+		2FD1612D15A2984C008C7610 /* AbstractFactoryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD1612C15A2984C008C7610 /* AbstractFactoryAppDelegate.m */; };
+		2FD1613015A2984C008C7610 /* AbstractFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD1612F15A2984C008C7610 /* AbstractFactoryViewController.m */; };
+		2FD1613315A2984C008C7610 /* AbstractFactoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FD1613115A2984C008C7610 /* AbstractFactoryViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FD1611815A2984C008C7610 /* AbstractFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbstractFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD1611C15A2984C008C7610 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2FD1611E15A2984C008C7610 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2FD1612015A2984C008C7610 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2FD1612415A2984C008C7610 /* AbstractFactory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AbstractFactory-Info.plist"; sourceTree = "<group>"; };
+		2FD1612615A2984C008C7610 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2FD1612815A2984C008C7610 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FD1612A15A2984C008C7610 /* AbstractFactory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AbstractFactory-Prefix.pch"; sourceTree = "<group>"; };
+		2FD1612B15A2984C008C7610 /* AbstractFactoryAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractFactoryAppDelegate.h; sourceTree = "<group>"; };
+		2FD1612C15A2984C008C7610 /* AbstractFactoryAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractFactoryAppDelegate.m; sourceTree = "<group>"; };
+		2FD1612E15A2984C008C7610 /* AbstractFactoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractFactoryViewController.h; sourceTree = "<group>"; };
+		2FD1612F15A2984C008C7610 /* AbstractFactoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractFactoryViewController.m; sourceTree = "<group>"; };
+		2FD1613215A2984C008C7610 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AbstractFactoryViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FD1611515A2984C008C7610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD1611D15A2984C008C7610 /* UIKit.framework in Frameworks */,
+				2FD1611F15A2984C008C7610 /* Foundation.framework in Frameworks */,
+				2FD1612115A2984C008C7610 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FD1610D15A2984C008C7610 = {
+			isa = PBXGroup;
+			children = (
+				2FD1612215A2984C008C7610 /* AbstractFactory */,
+				2FD1611B15A2984C008C7610 /* Frameworks */,
+				2FD1611915A2984C008C7610 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FD1611915A2984C008C7610 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FD1611815A2984C008C7610 /* AbstractFactory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FD1611B15A2984C008C7610 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FD1611C15A2984C008C7610 /* UIKit.framework */,
+				2FD1611E15A2984C008C7610 /* Foundation.framework */,
+				2FD1612015A2984C008C7610 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FD1612215A2984C008C7610 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				2FD1612B15A2984C008C7610 /* AbstractFactoryAppDelegate.h */,
+				2FD1612C15A2984C008C7610 /* AbstractFactoryAppDelegate.m */,
+				2FD1612E15A2984C008C7610 /* AbstractFactoryViewController.h */,
+				2FD1612F15A2984C008C7610 /* AbstractFactoryViewController.m */,
+				2FD1613115A2984C008C7610 /* AbstractFactoryViewController.xib */,
+				2FD1612315A2984C008C7610 /* Supporting Files */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		2FD1612315A2984C008C7610 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FD1612415A2984C008C7610 /* AbstractFactory-Info.plist */,
+				2FD1612515A2984C008C7610 /* InfoPlist.strings */,
+				2FD1612815A2984C008C7610 /* main.m */,
+				2FD1612A15A2984C008C7610 /* AbstractFactory-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FD1611715A2984C008C7610 /* AbstractFactory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FD1613615A2984C008C7610 /* Build configuration list for PBXNativeTarget "AbstractFactory" */;
+			buildPhases = (
+				2FD1611415A2984C008C7610 /* Sources */,
+				2FD1611515A2984C008C7610 /* Frameworks */,
+				2FD1611615A2984C008C7610 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbstractFactory;
+			productName = AbstractFactory;
+			productReference = 2FD1611815A2984C008C7610 /* AbstractFactory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FD1610F15A2984C008C7610 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AbstractFactory;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2FD1611215A2984C008C7610 /* Build configuration list for PBXProject "AbstractFactory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2FD1610D15A2984C008C7610;
+			productRefGroup = 2FD1611915A2984C008C7610 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FD1611715A2984C008C7610 /* AbstractFactory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FD1611615A2984C008C7610 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD1612715A2984C008C7610 /* InfoPlist.strings in Resources */,
+				2FD1613315A2984C008C7610 /* AbstractFactoryViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FD1611415A2984C008C7610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD1612915A2984C008C7610 /* main.m in Sources */,
+				2FD1612D15A2984C008C7610 /* AbstractFactoryAppDelegate.m in Sources */,
+				2FD1613015A2984C008C7610 /* AbstractFactoryViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2FD1612515A2984C008C7610 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FD1612615A2984C008C7610 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2FD1613115A2984C008C7610 /* AbstractFactoryViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FD1613215A2984C008C7610 /* en */,
+			);
+			name = AbstractFactoryViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FD1613415A2984C008C7610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2FD1613515A2984C008C7610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FD1613715A2984C008C7610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AbstractFactory/AbstractFactory-Prefix.pch";
+				INFOPLIST_FILE = "AbstractFactory/AbstractFactory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2FD1613815A2984C008C7610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AbstractFactory/AbstractFactory-Prefix.pch";
+				INFOPLIST_FILE = "AbstractFactory/AbstractFactory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FD1611215A2984C008C7610 /* Build configuration list for PBXProject "AbstractFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD1613415A2984C008C7610 /* Debug */,
+				2FD1613515A2984C008C7610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FD1613615A2984C008C7610 /* Build configuration list for PBXNativeTarget "AbstractFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD1613715A2984C008C7610 /* Debug */,
+				2FD1613815A2984C008C7610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FD1610F15A2984C008C7610 /* Project object */;
+}

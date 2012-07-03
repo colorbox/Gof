@@ -22,10 +22,41 @@ static Singleton* _instance = nil;
 
 +(id)instance{
     static id _instance = nil;
-    if(!_instance){
-        _instance = [[self alloc]init];
+    @synchronized(self){
+        if(!_instance){
+            _instance = [[self alloc]init];
+        }
     }
     return _instance;
 }
+
++(id)allocWithZone:(NSZone *)zone{
+    @synchronized(self){
+        if(!_instance){
+            _instance = [super allocWithZone:zone];
+            return _instance;
+        }
+    }
+    return nil;
+}
+
+-(id)copyWithZone:(NSZone*)zone{
+    return self;
+}
+
+/*
+-(id)retain{
+    return self;
+}
+
+-(unsigned)retainCount{
+    return UINT_MAX;
+}
+
+-(void)release{}
+-(id)autorelease{
+    return self;
+}
+*/
 
 @end
