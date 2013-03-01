@@ -1,7 +1,0 @@
-public class Main{
-    public static void main(String[] args){
-	printable p = new PrinterProxy("Alice");
-	System.out.println("名前は現在"+p.getPrinterName()+"です。");
-	
-    }
-}

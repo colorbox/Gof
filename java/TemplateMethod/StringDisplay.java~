@@ -1,8 +1,0 @@
-public StringDisplay extends AbstractDisplay{
-    private String string;
-    private int width;
-    public StringDisplay(String string){
-	this.string=string;
-	this.width=string.getBytes().length;
-    }
-}

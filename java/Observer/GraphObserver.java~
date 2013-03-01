@@ -1,8 +1,0 @@
-public class GraphObserver implements Observer{
-    public void update(NumberGenerator generator){
-	System.out.println("GraphObserver:");
-	for(int i=0;i<count;i++){
-	    System.out.print("*");
-	}
-    }
-}
